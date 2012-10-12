@@ -1,0 +1,488 @@
+﻿@charset "utf-8";
+/*----------привязка футера-----------------*/
+ul.header_menu{
+	position: absolute;
+	bottom: 1px;
+	left: 5px;
+}
+
+ul.header_menu li a{
+	font-size: 18px;
+	color: #ffffff;
+	height: 117px;
+	display: block;
+	text-decoration: none;
+}
+
+ul.header_menu li{
+	float: left;
+	list-style: none;
+	font-size: 18px;
+	position: relative;
+}
+
+ul.header_menu li a span{
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	cursor: pointer;
+}
+
+ul.header_menu li div{
+	position: relative;
+}
+
+ul.header_menu li.curent{
+	z-index: 100;
+}
+
+ul.header_menu li.curent a{
+	font-size: 36px;
+}
+
+ul.header_menu li.curent a span{
+	position: absolute;
+	top: 23px;
+	left: 0px;
+}
+
+
+/*------------Curent service-------------------*/
+.service_menu ul.header_menu li .menu_service{
+	margin-left: 10px;
+}
+
+.service_menu  ul.header_menu li .menu_service a {
+	background: url(../images/consulting/service_curent/menu_service_curent.png) no-repeat top;
+	width: 243px;
+	font-size: 36px;
+}
+
+.service_menu  ul.header_menu li .menu_service a span{
+	margin-left: 38px;
+	letter-spacing: 2px;
+}
+
+.service_menu  ul.header_menu li .menu_service a:hover {
+	background: url(../images/consulting/service_curent/menu_service_curent.png) no-repeat bottom;
+}
+
+.service_menu  ul.header_menu li .menu_consultation{
+	margin-left: -58px;
+}
+
+.service_menu  ul.header_menu li .menu_consultation a{
+	background: url(../images/consulting/service_curent/menu_consultation.png) no-repeat top;
+	width: 208px;
+}
+
+.service_menu  ul.header_menu li .menu_consultation a span{
+	margin-left: 29px;
+}
+
+.service_menu  ul.header_menu li .menu_consultation a:hover{
+	background: url(../images/consulting/service_curent/menu_consultation.png) no-repeat bottom;
+}
+/*
+.service_menu  ul.header_menu li .menu_project{
+	margin-left: -47px;
+}
+
+.service_menu  ul.header_menu li .menu_project a{
+	background: url(../images/consulting/service_curent/menu_project.png) no-repeat bottom;
+	width: 159px;
+}
+
+.service_menu  ul.header_menu li .menu_project a span{
+	margin-left: 28px;
+}
+
+.service_menu  ul.header_menu li .menu_project a:hover{
+	background: url(../images/consulting/service_curent/menu_project_hover.png) no-repeat bottom;
+}*/
+
+
+.service_menu  ul.header_menu li .menu_parther{
+	margin-left: -48px;
+}
+
+.service_menu  ul.header_menu li .menu_parther a{
+	background: url(../images/consulting/service_curent/menu_parther.png) no-repeat top;
+	width: 178px;
+}
+
+.service_menu  ul.header_menu li .menu_parther a span{
+	margin-left: 30px;
+}
+
+.service_menu  ul.header_menu li .menu_parther a:hover{
+	background: url(../images/consulting/service_curent/menu_parther.png) no-repeat bottom;
+}
+
+/*wba*/
+.service_menu  ul.header_menu li .menu_wba{
+	margin-left: -53px;
+}
+
+.service_menu  ul.header_menu li .menu_wba a{
+	background: url(../images/consulting/service_curent/menu_mba_.png) no-repeat center 8px;
+	width: 216px;
+}
+
+.service_menu  ul.header_menu li .menu_wba a span{
+	margin-left: 30px;
+}
+
+.service_menu  ul.header_menu li .menu_wba a:hover{
+	background: url(../images/consulting/service_curent/menu_mba_.png) no-repeat bottom;
+}
+
+/*------------Curent Consulting -------------------*/
+.consulting_menu ul.header_menu li .menu_consultation {
+	margin-left: -47px;
+}
+
+.consulting_menu ul.header_menu li .menu_consultation a{
+	background: url(../images/consulting/consultation_curent/menu_consultation_curent.png) no-repeat top;
+	width: 366px;
+}
+
+.consulting_menu ul.header_menu li .menu_consultation a span{
+	margin-left: 40px;
+}
+
+.consulting_menu ul.header_menu li .menu_consultation a:hover{
+	background: url(../images/consulting/consultation_curent/menu_consultation_curent.png) no-repeat bottom;
+}
+
+.consulting_menu ul.header_menu li .menu_service{
+	margin-left: 10px;	
+}
+
+.consulting_menu ul.header_menu li .menu_service a {
+	background: url(../images/consulting/consultation_curent/menu_service.png) no-repeat top;
+	width: 143px;
+}
+
+.consulting_menu ul.header_menu li .menu_service a span{
+	margin-left: 31px;
+}
+
+.consulting_menu ul.header_menu li .menu_service a:hover {
+	background: url(../images/consulting/consultation_curent/menu_service.png) no-repeat bottom;
+}
+
+/*.consulting_menu ul.header_menu li .menu_project{
+	margin-left: -54px;
+}
+
+.consulting_menu ul.header_menu li .menu_project a{
+	background: url(../images/consulting/consultation_curent/menu_project.png) no-repeat top;
+	width: 158px;
+}
+
+.consulting_menu ul.header_menu li .menu_project a span{
+	margin-left: 29px;
+}
+
+.consulting_menu ul.header_menu li .menu_project a:hover{
+	background: url(../images/consulting/consultation_curent/menu_project.png) no-repeat bottom;
+}
+*/
+.consulting_menu ul.header_menu li .menu_parther{
+	margin-left: -56px;
+}
+
+.consulting_menu ul.header_menu li .menu_parther a{
+	background: url(../images/consulting/consultation_curent/menu_parther.png) no-repeat top;
+	width: 179px;
+}
+
+.consulting_menu ul.header_menu li .menu_parther a span{
+	margin-left: 32px;
+}
+
+.consulting_menu ul.header_menu li .menu_parther a:hover{
+	background: url(../images/consulting/consultation_curent/menu_parther.png) no-repeat bottom;
+}
+
+/*wba*/
+.consulting_menu  ul.header_menu li .menu_wba{
+	margin-left: -52px;
+}
+
+.consulting_menu  ul.header_menu li .menu_wba a{
+	background: url(../images/consulting/service_curent/menu_mba_consultants.png) no-repeat center 8px;
+	width: 216px;
+}
+
+.consulting_menu  ul.header_menu li .menu_wba a span{
+	margin-left: 30px;
+}
+
+.consulting_menu  ul.header_menu li .menu_wba a:hover{
+	background: url(../images/consulting/service_curent/menu_mba_consultants.png) no-repeat bottom;
+}
+
+/*------------Curent Project -------------------
+.project_menu ul.header_menu li .menu_project{
+	margin-left: -51px;
+}
+
+.project_menu ul.header_menu li .menu_project a{
+	background: url(../images/consulting/project_curent/menu_project_curent.png) no-repeat bottom;
+	width: 271px;
+}
+
+.project_menu ul.header_menu li .menu_project a:hover{
+	background: url(../images/consulting/project_curent/menu_project_curent_hover.png) no-repeat bottom;
+}
+
+.project_menu ul.header_menu li .menu_project a span{
+	margin-left: 41px;
+}
+
+.project_menu ul.header_menu li .menu_service{
+	margin-left: 12px;	
+}
+
+.project_menu ul.header_menu li .menu_service a {
+	background: url(../images/consulting/project_curent/menu_service.png) no-repeat bottom;
+	width: 143px;
+}
+
+.project_menu ul.header_menu li .menu_service a span{
+	margin-left: 29px;
+}
+
+.project_menu ul.header_menu li .menu_service a:hover {
+	background: url(../images/consulting/project_curent/menu_service_hover.png) no-repeat bottom;
+}
+
+
+.project_menu ul.header_menu li .menu_consultation{
+	margin-left: -46px;
+}
+
+.project_menu ul.header_menu li .menu_consultation a{
+	background: url(../images/consulting/project_curent/menu_consultation.png) no-repeat bottom;
+	width: 208px;
+}
+
+.project_menu ul.header_menu li .menu_consultation a span{
+	margin-left: 29px;
+}
+
+.project_menu ul.header_menu li .menu_consultation a:hover{
+	background: url(../images/consulting/project_curent/menu_consultation_hover.png) no-repeat bottom;
+}
+
+
+.project_menu ul.header_menu li .menu_parther{
+	margin-left: -52px;
+}
+
+.project_menu ul.header_menu li .menu_parther a{
+	background: url(../images/consulting/project_curent/menu_parther.png) no-repeat bottom;
+	width: 159px;
+}
+
+.project_menu ul.header_menu li .menu_parther a span{
+	margin-left: 27px;
+}
+
+.project_menu ul.header_menu li .menu_parther a:hover{
+	background: url(../images/consulting/project_curent/menu_parther_hover.png) no-repeat bottom;
+}
+*/
+/*------------Curent Parther -------------------*/
+.parther_menu ul.header_menu li .menu_parther{
+	margin-left: -54px;
+}
+
+.parther_menu ul.header_menu li .menu_parther a{
+	background: url(../images/consulting/parther_curent/parther_curent.png) no-repeat top;
+	width: 305px;
+}
+
+.parther_menu ul.header_menu li .menu_parther a:hover{
+	background: url(../images/consulting/parther_curent/parther_curent.png) no-repeat bottom;
+}
+
+.parther_menu ul.header_menu li .menu_parther a span{
+	margin-left: 48px;
+}
+
+.parther_menu ul.header_menu li .menu_service{
+	margin-left: 10px;	
+}
+
+.parther_menu ul.header_menu li .menu_service a {
+	background: url(../images/consulting/parther_curent/menu_service.png) no-repeat top;
+	width: 144px;
+}
+
+.parther_menu ul.header_menu li .menu_service a span{
+	margin-left: 31px;
+}
+
+.parther_menu ul.header_menu li .menu_service a:hover {
+	background: url(../images/consulting/parther_curent/menu_service.png) no-repeat bottom;
+}
+
+
+.parther_menu ul.header_menu li .menu_consultation{
+	margin-left: -50px;
+}
+
+.parther_menu ul.header_menu li .menu_consultation a{
+	background: url(../images/consulting/parther_curent/menu_consultation.png) no-repeat top;
+	width: 210px;
+}
+
+.parther_menu ul.header_menu li .menu_consultation a span{
+	margin-left: 33px;
+}
+
+.parther_menu ul.header_menu li .menu_consultation a:hover{
+	background: url(../images/consulting/parther_curent/menu_consultation.png) no-repeat bottom;
+}
+/*
+
+.parther_menu ul.header_menu li .menu_project{
+	margin-left: -45px;
+}
+
+.parther_menu ul.header_menu li .menu_project a{
+	background: url(../images/consulting/parther_curent/menu_project.png) no-repeat bottom;
+	width: 158px;
+}
+
+.parther_menu ul.header_menu li .menu_project a span{
+	margin-left: 28px;
+}
+
+.parther_menu ul.header_menu li .menu_project a:hover{
+	background: url(../images/consulting/parther_curent/menu_project_hover.png) no-repeat bottom;
+}
+*/
+
+/*wba*/
+.parther_menu  ul.header_menu li .menu_wba{
+	margin-left: -52px;
+}
+
+.parther_menu  ul.header_menu li .menu_wba a{
+	background: url(../images/consulting/service_curent/menu_mba_partners.png) no-repeat center 8px;
+	width: 216px;
+}
+
+.parther_menu  ul.header_menu li .menu_wba a span{
+	margin-left: 30px;
+}
+
+.parther_menu  ul.header_menu li .menu_wba a:hover{
+	background: url(../images/consulting/service_curent/menu_mba_partners.png) no-repeat bottom;
+}
+
+
+/*------------Curent WBA -------------------*/
+.wba_menu ul.header_menu li .menu_parther{
+	margin-left: -52px;
+}
+
+.wba_menu ul.header_menu li .menu_parther a{
+	background: url(../images/consulting/consultation_curent/menu_parther.png) no-repeat top;
+	width: 179px;
+}
+
+.wba_menu ul.header_menu li .menu_parther a:hover{
+	background: url(../images/consulting/consultation_curent/menu_parther.png) no-repeat bottom;
+}
+
+.wba_menu ul.header_menu li .menu_parther a span{
+	margin-left: 35px;
+}
+
+.wba_menu ul.header_menu li .menu_service{
+	margin-left: 10px;	
+}
+
+.wba_menu ul.header_menu li .menu_service a {
+	background: url(../images/consulting/wba_current/menu_service.png) no-repeat top;
+	width: 144px;
+}
+
+.wba_menu ul.header_menu li .menu_service a span{
+	margin-left: 31px;
+}
+
+.wba_menu ul.header_menu li .menu_service a:hover {
+	background: url(../images/consulting/wba_current/menu_service.png) no-repeat bottom;
+}
+
+
+.wba_menu ul.header_menu li .menu_consultation{
+	margin-left: -50px;
+}
+
+.wba_menu ul.header_menu li .menu_consultation a{
+	background: url(../images/consulting/wba_current/menu_consultation.png) no-repeat top;
+	width: 210px;
+}
+
+.wba_menu ul.header_menu li .menu_consultation a span{
+	margin-left: 33px;
+}
+
+.wba_menu ul.header_menu li .menu_consultation a:hover{
+	background: url(../images/consulting/wba_current/menu_consultation.png) no-repeat bottom;
+}
+
+
+/*wba*/
+.wba_menu  ul.header_menu li .menu_wba{
+	margin-left: -58px;
+}
+
+.wba_menu  ul.header_menu li .menu_wba a{
+	background: url(../images/consulting/wba_current/menu_mba_mba.png) no-repeat center top;
+	width: 370px;
+}
+
+.wba_menu  ul.header_menu li .menu_wba a span{
+	margin-left: 43px;
+}
+
+.wba_menu  ul.header_menu li .menu_wba a:hover{
+	background: url(../images/consulting/wba_current/menu_mba_mba.png) no-repeat bottom;
+}
+
+
+/*------------Web designe-------------------*/
+.menu_web{
+	position: absolute;
+	bottom: 37px;
+	right: 15px;
+	font-size: 18px;
+}
+
+.menu_web a{
+ background: url(../images/consulting/menu_web.png) no-repeat top;
+ width: 212px;
+ display: block;
+ height: 70px;
+ color: #ffffff;
+ text-decoration: none; 
+}
+
+.menu_web a:hover{
+ background: url(../images/consulting/menu_web.png) no-repeat bottom;
+}
+
+.menu_web a span{
+	position: absolute;
+	top: 27px;
+	right: 30px;
+	cursor: pointer;
+}

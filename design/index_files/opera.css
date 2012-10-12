@@ -1,0 +1,7 @@
+﻿@charset "utf-8";
+@media all and (-webkit-min-device-pixel-ratio:10000),
+not all and (-webkit-min-device-pixel-ratio:0) {
+.clearer{
+	height: 1px;
+	}
+}

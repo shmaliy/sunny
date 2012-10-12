@@ -1,0 +1,170 @@
+﻿@charset "utf-8";
+
+/*default contact*/
+.bottom_planet{
+	min-height: 247px;
+	-height: 247px;
+	margin-top: -247px;
+}
+
+.about .bottom_planet{
+	width: 900px;
+}
+
+/*Full contact*/
+.contact_full .bottom_planet{
+	min-height: 698px;
+	-height: 698px;
+	margin-top: -698px;
+}
+
+
+/*----------Fotter-----------------------*/
+.bottom_planet{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+/*----------Planet Know you-----------------------*/
+.know_you{
+	position: absolute;
+	top: 145px;
+	right: 35%;
+}
+
+.know_you .know_you_planet{
+	background: url(../images/know_you_planet.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 85px;
+	height: 47px;
+	width: 71px;
+}
+
+.know_you .visible{
+	bottom: 50px;
+	left: 30px;
+	width: 260px;
+	font-size: 13px;
+}
+
+.know_you .visible_center{
+	min-height: 70px;
+	max-height: 160px;
+}
+
+/*----------Planet Contact-----------------------*/
+.contact{
+	position: absolute;
+	top: 0px;
+	right: 38%;
+	color: #ffffff;
+}
+
+.contact .contact_planet{
+	background: url(../images/contact_planet.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 247px;
+	width: 694px;
+}
+
+.contact .contact_planet_full{
+	background: url(../images/contact_planet_full.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 692px;
+	width: 694px;
+}
+
+.contact .contact_planet_full  .contact_full{
+	position: absolute;
+	top: 110px;
+	left: 210px;
+}
+
+.contact .contact_planet_full .contact_full_left{
+	float: left;
+	width: 210px;
+	padding: 5px 0px;
+}
+
+.contact .contact_planet_full .contact_feedback_left{
+	width: 100px;
+	float: left;
+	padding: 5px 0px;
+}
+
+.contact .contact_planet_full .contact_feedback_right{
+	width: 280px;
+	float: left;
+	padding: 5px 0px;
+}
+
+.contact .contact_planet_full .contact_full_right{
+	float: left;
+	width: 210px;
+	padding: 5px 0px;
+}
+
+.contact .contact_planet_full .contact_full_left div, .contact .contact_planet_full .contact_full_right div{
+	padding: 2px 0px;
+}
+
+.contact .contact_planet_full .contact_full_right .contact_full_title, .contact .contact_planet_full .contact_full_left .contact_full_title{
+	padding: 7px 0px;
+}
+
+.contact .contact_default{
+	position: absolute;
+	top: 114px;
+	right: 170px;
+	width: 350px;
+	padding-bottom: 1px;
+}
+
+.contact a{
+	font-size: 13px;
+	color: #00ccff; 
+}
+
+.contact .contact_planet_full .feedback_space{
+	margin: 3px 0px 5px;
+}
+
+.contact .contact_planet_full input.button{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact .contact_default a{
+	margin-left: 35px;
+}
+
+.contact  a:hover{
+	color: #00fff6;
+	text-decoration: none;
+}
+
+.contact .contact_default .phone{
+	font-size: 36px;
+	margin: 7px 0px;
+}
+
+.contact  a.other{
+	font-size: 13px;
+	color: #00ccff; 
+	text-decoration: none;
+	border-bottom: 1px dashed #00ccff;
+}
+
+.contact  a.other:hover{
+	color: #00fff6;
+	border-bottom: 1px dashed #00fff6;
+}
+
+.fb{max-height:350px !important}

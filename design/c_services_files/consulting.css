@@ -1,0 +1,858 @@
+﻿@charset "utf-8";
+/*----------привязка футера-----------------*/
+html, body{
+	height: 100%;
+	min-width: 980px;	
+}
+
+html { overflow-y: scroll; }
+
+#wrapper{
+	position: relative;
+	min-height: 100%;
+	-height: 100%;
+	background: #e4ebee;
+}
+
+.fixed{
+	width: 890px;
+	margin: 0px auto;	
+}
+
+img{border:none}
+
+/*---------------Header----------------*/
+#header{
+	background: #e4ebee;
+	height: 297px;
+	position: relative;
+}
+
+#header .bg_left{
+	background: url(../images/consulting/consulting_left_bg.jpg) repeat-x right top;
+	height: 297px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 50%;
+	margin-right: 489px;
+}
+
+#header .bg_center{
+	background: url(../images/consulting/consulting_center_bg.jpg) repeat-x;
+	height: 297px;
+	width: 980px;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+}
+
+
+#header .bg_right{
+	background: url(../images/consulting/consulting_right_bg.jpg) repeat-x;
+	height: 297px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	right: 0px;
+	margin-left: 490px;
+}
+
+#header .consulting_logo{
+	/*background: url(../images/consulting/consulting_logo.png) no-repeat;*/
+	height: 154px;
+	position: absolute;
+	top: 6px;
+	right: 718px;
+	width: 300px;
+}
+
+#header .consulting_logo img{
+	border: none;
+}
+
+#header .consulting_phone{
+	color: #3e5d7d;
+	position: absolute;
+	top: 44px;
+	right: 43px;
+	padding-bottom: 1px;
+}
+
+#header .consulting_logaut{
+	position: absolute;
+	top: 0px;
+	right: 46px;
+	font-size: 13px;
+}
+
+#header .consulting_logaut a{
+	padding: 2px 7px 6px;
+	text-decoration: none;
+	float: left;
+}
+
+#header .consulting_logaut .logaut{
+	background: #3e5d7d;
+}
+
+#header .consulting_logaut .logaut:hover{
+	background: #4d8fd4;
+}
+
+#header .consulting_phone div{
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+#header .consulting_phone span.kod{
+	color: #3e5d7d;
+	position: absolute;
+	top: 4px;
+	left: -32px;
+	font-size: 16px;
+}
+
+/*--------------Footer-----------------*/
+#footer{
+	position: relative;
+	min-height: 350px;
+	-height: 350px;
+	margin-top: -390px;
+	background: #678da3;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 20px 0px;
+}
+
+#footer .contact_full_left{
+	width: 223px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+#footer a{
+	color: #77f7ff;
+	text-decoration: underline;
+}
+
+#footer a:hover{
+	color: #adfaff;
+	text-decoration: none;
+}
+
+#footer .contact_full_title{
+	margin-bottom: 15px;
+}
+
+#footer .contact_feedback_title{
+	margin-bottom: 14px;
+}
+
+#footer .contact_feedback_left{
+	width: 100px;
+	float: left;
+	padding: 5px 0px;
+}
+
+#footer .contact_feedback_right{
+	width: 280px;
+	float: left;
+	padding: 5px 0px;
+}
+
+#footer .feedback_space{
+	margin: 3px 0px 5px;
+}
+
+#footer input.button{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#footer .footer_left{
+	float: left;
+	width: 490px;	
+}
+
+#footer .footer_right{
+	float: right;
+	width: 390px;
+}
+
+#footer .copy{
+	color: #d9d9d9;
+	font-size: 9px;
+}
+
+#footer .footer_mail_container{
+	border: 1px solid rgb(0, 219, 68);
+	width: 390px; 
+	height: 60px; 
+	background-color: rgb(220, 255, 205); 
+	color: rgb(85, 85, 85); 
+	text-align: center; 
+	position: absolute; 
+	top: 50%;
+	margin-top: -30px;
+	display: none;
+}
+
+/*content*/
+#content{
+	color: #4d636f;
+	padding-bottom: 390px;
+	font-size: 15px;	
+	height: 100%;
+	min-height: 330px;
+}
+
+cite {
+	border-left:1px solid #4D636F;
+}
+
+#content a{
+	color: #2f88e5;
+	text-decoration: underline;
+}
+
+#content a:hover{
+	color: #00a2ff;
+	text-decoration: none;
+}
+
+h1,h2,h3{
+	color: #4a88a4;
+}
+
+#content .our_work_details_center h1{
+	margin-bottom: 8px;
+	margin-right:100px;
+}
+
+h2{
+	margin-top: 15px;
+}
+
+ul.dash li{
+	background: url(../images/consulting_shooting.png) no-repeat 0px 8px;
+}
+
+.portfolio_menu_title{
+	margin-top: 8px;
+	z-index: 150;
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	font-size: 11px;
+	padding-bottom:  1px;
+}
+
+.portfolio{
+	width: 440px;
+	height: 167px;
+	background: url(../images/consulting/big_project_bg.png) no-repeat;
+	font-size: 11px;
+}
+
+.portfolio:hover{
+	background: url(../images/consulting/big_project_bg_hover.png) no-repeat;
+}
+
+.work_portfolio .portfolio{
+	width: 266px;
+	height: 181px;
+	background: url(../images/consulting/all_project_bg.png) no-repeat;
+	padding: 12px;
+}
+
+.work_portfolio  .parther_portfolio {
+	position:relative;
+	background: none;
+}
+
+.work_portfolio  .parther_portfolio img {
+	left:50%;
+	position:absolute;
+	top:50%;
+}
+.work_portfolio .parther_portfolio:hover img{
+	background-position: bottom!important;
+}
+
+.work_portfolio .portfolio:hover{
+	background: url(../images/consulting/all_project_bg_hover.png) no-repeat;
+}
+
+.img_work{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 15px;
+	border: none;
+}
+
+.our_work_details .img_work{
+	margin-top: 7px;
+}
+
+.img_consulting{
+	width: 100px;
+	height: 200px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 7px;
+	border: none;
+}
+
+.portfolio .img_work{
+	margin-top: 3px;
+}
+
+.portfolio .portfolio_center_right{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.portfolio .portfolio_center_right{
+	width: 290px;
+}
+
+.work_portfolio .portfolio .portfolio_center_right{
+	width: 130px;
+}
+
+#content .portfolio .portfolio_center_description p {
+	margin: 5px 0;
+}
+
+.portfolio_center_description{
+	padding: 20px 13px 15px;
+	height:90px;
+	overflow:hidden;
+}
+
+.work_portfolio .portfolio_center_description{
+	padding: 0px;
+	height: 175px;
+}
+
+.portfolio .previous_next {
+	padding: 3px 15px 0;
+	font-size: 24px;
+}
+
+/* Portfolio_big */
+.portfolio_big{
+	width: 890px;
+	/*min-height: 167px;*/
+	background: #e4ebee;
+	margin-bottom: 10px;
+}
+
+.portfolio_big .portfolio_center_right{
+	margin-left: 115px;
+}
+
+.portfolio_big .portfolio_big_top{
+	background: url(../images/consulting/big_teaser_top.png) no-repeat left top;
+}
+
+.portfolio_big .portfolio_big_top .portfolio_big_bottom{
+	background: url(../images/consulting/big_teaser_bottom.png) no-repeat left bottom;
+	padding: 21px 20px 15px 15px;
+}
+
+.portfolio_big:hover .portfolio_big_top{
+	background: url(../images/consulting/big_teaser_top_hover.png) no-repeat left top;
+}
+
+.portfolio_big:hover .portfolio_big_top .portfolio_big_bottom{
+	background: url(../images/consulting/big_teaser_bottom_hover.png) no-repeat left bottom;
+}
+
+#content .portfolio_big p {
+	margin: 0px 0px 20px;
+}
+
+.portfolio_big .img_work {
+	margin-top:3px;
+}
+
+.our_work_details{
+	font-size: 13px;
+	padding: 15px 0px 0px;
+}
+
+.our_work_details .our_work_details_center {
+	float: left;
+	width: 775px;
+}
+
+#content .our_work_details .our_work_details_center p{
+	margin: 0px 0px 5px;
+}
+
+.our_work_details .our_work_details_center .our_work_details_center_description {
+	float: left;
+	margin-top: 10px;
+	width: 490px;
+}
+
+.our_work_details .our_work_details_center .consulting_details_center_description{
+	float: left;
+	width: 445px;
+}
+
+.our_work_details .our_work_details_left {
+	float: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	width: 100px;
+}
+
+.our_work_details .consulting_details_left {
+	float: left;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 140px;
+}
+
+.our_work_details .our_work_details_right {
+	float: left;
+	margin-bottom: 10px;
+	width: 390px;
+}
+
+.our_work_details .consulting_details_right {
+	float: left;
+	margin-bottom: 5px;
+	width: 160px;
+	padding-bottom: 2px;
+}
+
+.our_work_photo{
+	width: auto;
+	margin: 0px auto;
+	width: 890px;
+}
+
+.our_work_photo img{
+	max-width: 860px;
+	margin-top: 10px;
+}
+
+/*---------Menu----------*/
+.portfolio_menu {
+	position: absolute;
+	top: -2px;
+	right: -10px;
+	border: 1px solid #8eaebc;
+	background: url(../images/consulting/menu_bg.png);
+	width: 250px;
+	min-height: 130px;
+	z-index: 100;
+}
+
+.portfolio_menu .portfolio_top{
+	background: url(../images/consulting/menu_top_bg.png) no-repeat;
+}
+
+.portfolio_menu .portfolio_bottom{
+	background: url(../images/consulting/menu_bottom_bg.png) no-repeat bottom;
+}
+
+.portfolio_menu .portfolio_center{
+	padding: 43px 10px 15px 0px;
+}
+
+.portfolio_menu .portfolio_center sup{
+	color: #8d8d8d;
+	font-size: 10px;
+}
+
+.portfolio_menu .portfolio_center ul{
+	font-size: 18px;
+	padding-left: 16px;
+}
+
+.portfolio_menu .portfolio_center ul ul{ 
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.portfolio_menu .portfolio_center ul li{
+	margin-bottom: 5px;
+}
+
+
+#content .portfolio_menu .portfolio_center ul li.curent a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.portfolio_menu .portfolio_center ul ul li{ 
+	margin-bottom: 7px;
+}
+
+.portfolio_menu .portfolio_center ul.static { 
+	margin-top: 40px;
+}
+
+/*-------------Visible-----------*/
+.visible{
+	position: relative;
+	font-size: 13px;
+	padding: 10px;
+	z-index: 1;
+}
+
+.our_work_photo .visible{
+	text-align: center;
+}
+
+.visible .visible_corner {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+}
+
+.visible .visible_top_left{
+	background: url(../images/consulting/consulting_visible_tl.png) no-repeat;
+	top: 0px;
+	left: 0px;
+}
+
+
+.visible .visible_top_right{
+	background: url(../images/consulting/consulting_visible_tr.png) no-repeat;
+	top: 0px;
+	right: 0px;
+}
+
+
+.visible .visible_bottom_left{
+	background: url(../images/consulting/consulting_visible_bl.png) no-repeat;
+	bottom: 0px;
+	left: 0px;
+}
+
+.visible .visible_bottom_right{
+	background: url(../images/consulting/consulting_visible_br.png) no-repeat;
+	bottom: 0px;
+	right: 0px;
+}
+
+.visible .visible_bacground{
+	background: url(../images/consulting/consulting_visible_bg.png) repeat;
+}
+
+.visible .visible_top{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	right: 10px;
+	height: 10px;
+}
+
+.visible .visible_bottom{
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	right: 10px;
+	height: 10px;
+}
+
+.visible .visible_left{
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 0px;
+	width: 10px;
+}
+
+.visible .visible_right{
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	right: 0px;
+	width: 10px;
+}
+
+.our_work_photo .visible .visible_center {
+	padding-top: 2px; 
+}
+
+.our_work_details_center .visible_center {
+	min-height:70px;
+}
+
+.our_work_details .our_work_details_center .visible_center {
+	padding: 3px;
+}
+
+#content .our_work_details_center .visible_center p{
+	margin: 10px 0px 0px;
+	font-style: italic;
+}
+
+.visible .visible_center img{
+	border: 2px solid #566b77;
+}
+
+.visible .visible_center a img{
+	border: 2px solid #2f88e5;
+}
+
+.visible .visible_center a:hover img{
+	border: 2px solid #00a2ff;
+}
+
+.visible  .arrows_left:hover{
+	background: url(../images/consulting/arrows_left_hover.png) no-repeat;
+}
+
+.visible  .arrows_right:hover{
+	background: url(../images/consulting/arrows_right_hover.png) no-repeat;
+}
+
+.our_work_details_center_visible{
+	width: 265px;
+	float:right;
+	margin-top:10px;
+}
+
+.consulting_details_center_visible{
+	width: 305px;
+	float:right;
+}
+
+.our_work_details_center_visible .title{
+	font-size: 18px;
+}
+
+.control_panel{
+	margin-bottom: 2px;
+	font-size:1 3px;
+	padding: 8px;
+	position: relative;
+	z-index: 1;
+}
+
+.control_panel ul{
+	margin-top: 3px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.control_panel ul li{
+	float: left;
+}
+
+.control_panel ul li a{
+	border: 1px solid #8fb4c5;
+	width: 8px;
+	height: 8px;
+	margin-right: 1px;
+	display: block;	
+}
+
+.control_panel ul li.curent a, .control_panel ul li.curent a:hover{
+	background: #8fb4c5;
+}
+
+.control_panel ul li a:hover{
+	background: #b1cad5;
+}
+
+.control_panel .visible_corner{
+	height: 16px;
+	position: absolute;
+	width: 9px;
+}
+
+.control_panel .visible_top_left{
+	left: 0px;
+	top: 0px;
+	background: url(../images/consulting/arrows_left_bg.png) no-repeat;
+}
+
+.control_panel .visible_top_right{
+	right: 0px;
+	top: 0px;
+	background: url(../images/consulting/arrows_right_bg.png) no-repeat;
+}
+
+.control_panel  .visible_center{
+	background: url(../images/consulting/consulting_visible_bg.png) repeat;	
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 9px;
+	right: 9px;
+}
+
+.control_panel .arrows{
+	width: 38px;
+	height: 12px;
+	top: 2px;
+	position: absolute;
+}
+
+
+.control_panel .arrows_left{
+	left: 2px;
+	background: url(../images/consulting/arrows_left.png) no-repeat;
+}
+
+.control_panel .arrows_left:hover{
+	background: url(../images/consulting/arrows_left_hover.png) no-repeat;
+}
+
+.control_panel .arrows_right{
+	right: 2px;
+	background: url(../images/consulting/arrows_right.png) no-repeat;
+}
+
+.control_panel .arrows_right:hover{
+	background: url(../images/consulting/arrows_right_hover.png) no-repeat;
+}
+/*------------SERVICE-----------------------*/
+.service_consulting, .adviser_consulting{
+	width: 290px;
+}
+
+.service_img{
+	width: 288px;
+	height: 124px;
+	padding: 0px;
+	background: #d6e3e8;
+	border: 1px solid #93b2c0;
+	border-bottom: none;
+}
+
+.service_img_border_bottom{
+	border-bottom: 1px solid #93b2c0;
+}
+
+.service_img span, .service_img div{
+	cursor: pointer;
+}
+
+#content .service_bg, #content .adviser_bg, #content .service_adviser_bg{
+	width: 288px;
+	height: 124px;
+	display: block;	
+	color: #d6e3e8;
+	font-size: 30px;
+	position: relative;
+	overflow: hidden;
+ 	text-decoration: none;
+}
+ 
+#content a.consultation_consultation{
+	width: 75px;
+	height: 16px;
+	background: url(../images/consulting/consultation_consultation.png) no-repeat top right;
+	position: relative;
+	top: 1px;
+	right: 1px;
+	display: block;
+	font-size: 11px;
+	color: #7998a7;
+	margin-left: 186px;
+	padding-left: 27px;
+	padding-top: 1px;
+	margin-bottom:-17px;
+	text-decoration: none;
+	z-index:1000;
+}
+
+#content a.consultation_consultation:hover{
+	background: url(../images/consulting/consultation_consultation.png) no-repeat bottom right;
+	color: #cbe3ee;
+	text-decoration: none;
+}
+
+
+.service_bg span, .adviser_bg span, .service_adviser_bg div{
+	position: absolute;
+	left: 10px;
+	line-height: 27px;
+}
+
+#content .service_bg:hover, #content .adviser_bg:hover{
+	color: #ffffff;
+}
+
+.service_bg:hover span, .adviser_bg:hover span, .curent .adviser_bg:hover span, .curent .adviser_bg span{
+	position: absolute;
+	bottom: 9px;
+	left: 10px;
+}
+
+.curent div span,.curent div:hover span {
+	position: absolute;
+	bottom: 15px!important;
+	left: 11px;
+}
+
+.service_bg:hover,.adviser_bg:hover,  .curent .adviser_bg, .curent .service_adviser_bg{
+	background-position: 0px -123px!important;
+}
+
+.curent .service_bg:hover, .curent .service_bg{
+	background-position: 0px -246px!important;
+ }
+
+ #content .curent .service_bg{
+ 	height: 129px;
+ 	padding-bottom: 0px;
+ }
+
+.consulting_text{
+	font-size: 13px;
+	padding: 21px 30px 15px 12px;	
+	border: 1px solid #93b2c0;
+	border-top: none;
+	width: 246px;
+	background: #d6e3e8 url(../images/consulting/service_bg_bottom.png) no-repeat bottom left;
+	height: 240px;
+	overflow: hidden;
+}
+
+.consulting_text_big{
+	font-size: 15px;
+	padding: 21px 30px 15px 12px;	
+	border: 1px solid #93b2c0;
+	width: 846px;
+	background: #d6e3e8 url(../images/consulting/service_bg_bottom.png) repeat-x bottom left;
+	height: auto;
+	overflow: hidden
+}
+ 
+#content .consulting_text p{
+	font-size: 13px;
+	margin: 0px 0px 5px 0px;	
+}
+
+.adviser_bg_1 span{
+	bottom: -35px;
+}
+
+.adviser_bg_2 span{
+	bottom: -10px
+}
+
+.consulting_text .consulting_text_contect{
+	text-align: right;
+	font-style: italic;
+}
+
+.consulting_text .consulting_text_about{
+	height: 190px;
+	overflow: hidden;
+}
