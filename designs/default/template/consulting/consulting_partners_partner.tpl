@@ -1,0 +1,3 @@
+					<div class="portfolio_center_description">
+						<a href="{$partner.url}" ><img title="{$partner.name}" style="border:none; background: url('http://{$root_url}/images/partners/{$partner.logo_gray}') no-repeat center top; width: 230px; height: 160px; margin-top: -80px; margin-left: -115px;" src="http://{$root_url}/designs/default/images/empty.png" alt="http://{$root_url}/designs/default/images/empty.png" /></a>
+					</div>
