@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Partners - партнеры компании</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует партнеров компании</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="partners">
+  		<field type="referenceid" name="id_partner" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  	</table>
+  </reference>
+</joomfish>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Client - клиенты</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует клиентов</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="client">
+  		<field type="referenceid" name="id_client" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  	</table>
+  </reference>
+</joomfish>

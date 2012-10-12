@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Shop - категории товаров компании</name>
+  <author>tymanov</author>
+  <version>1</version>
+  <description>Редактирует категории товаров компании</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="as_category_t">
+  		<field type="referenceid" name="id_catt" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  		<field type="htmltext" name="desc" translate="1" >Полное описание</field>
+  	</table>
+  </reference>
+</joomfish>

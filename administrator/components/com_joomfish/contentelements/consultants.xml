@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Consultant - консультанты</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует консалтинговые услуг</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="consultants">
+  		<field type="referenceid" name="id_consultant" translate="0">ID</field>
+  		<field type="titletext" name="fio"  length="50" maxlength="250" translate="1">ФИО</field>
+  		<field type="titletext" name="post"  length="50" maxlength="250" translate="1">Должность</field>
+  		<field type="textarea" name="desc"  length="150" translate="1">Должность</field>
+  	</table>
+  </reference>
+</joomfish>

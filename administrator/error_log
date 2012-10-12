@@ -1,0 +1,11 @@
+[11-Oct-2012 16:22:43] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'SunNY_sunny'@'localhost' (using password: YES)' in W:\home\sunny\www\administrator\h754gfuh8djuygfuh4ruf8je9fj54hfher9uf843hfij954yfhiud5yfuhirdfj945htguhrifj85hgh9t5guejd03edhuh3uf.php:12
+Stack trace:
+#0 W:\home\sunny\www\administrator\h754gfuh8djuygfuh4ruf8je9fj54hfher9uf843hfij954yfhiud5yfuhirdfj945htguhrifj85hgh9t5guejd03edhuh3uf.php(12): PDO->__construct('mysql:host=loca...', 'SunNY_sunny', 'adminadmin')
+#1 {main}
+  thrown in W:\home\sunny\www\administrator\h754gfuh8djuygfuh4ruf8je9fj54hfher9uf843hfij954yfhiud5yfuhirdfj945htguhrifj85hgh9t5guejd03edhuh3uf.php on line 12
+[11-Oct-2012 16:23:43] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37
+[11-Oct-2012 16:23:51] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37
+[11-Oct-2012 16:23:56] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37
+[11-Oct-2012 16:24:02] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37
+[11-Oct-2012 16:24:07] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37
+[11-Oct-2012 16:24:15] PHP Warning:  Invalid argument supplied for foreach() in W:\home\sunny\www\administrator\components\com_email\views\email\tmpl\default.php on line 37

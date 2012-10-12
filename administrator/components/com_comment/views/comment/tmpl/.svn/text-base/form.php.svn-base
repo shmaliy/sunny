@@ -1,0 +1,87 @@
+<?php 
+$id = JRequest::getVar('id');
+$model = $this->getModel();
+$editor   =& JFactory::getEditor();
+
+if($id):
+
+	$db = &JFactory::getDBO();
+	$db->setQuery("SELECT * FROM {$model->table} WHERE {$model->id}={$id}");
+	$item = $db->loadObject();
+	
+	$text      = $item->text;
+	$date      = $item->date;
+	$published = $item->published;
+	
+	$article   = $model->getArticleTitle($item->id_article, $item->type);
+	$user      = $model->getUserInfo($item->id_user);
+
+	switch( $item->type ):
+		case 1:
+			$article_link = '<a href="index.php?option=com_partner&view=notice&layout=form&task=edit&id='.$article->id.'" target="_blank">'.$article->title.'</a>';
+		break;
+		case 2:
+			$article_link = '<a href="index.php?option=com_content&view=item&id='.$article->id.'" target="_blank">'.$article->title.'</a>';
+		break;
+	endswitch;
+
+endif;
+
+?>
+
+<form action="index.php" method="post" name="adminForm" enctype="multipart/form-data">
+
+		  <fieldset class="adminform">
+		  <table class="admintable">
+			<tbody>
+
+              <tr>
+              	<td class="key"><label for="date"><?php echo JText::_('Пользователь');?></label></td>
+                <td><a href="index.php?option=com_partner&view=list&layout=form&task=edit&id=<?php echo $user->id_partner?>" target="_blank"><?php echo ( $user->title ) ? $user->title : $user->login;?></a></td>
+              </tr>
+
+              <tr>
+              	<td class="key"><label for="date"><?php echo JText::_('Материал');?></label></td>
+                <td><?php echo $article_link?></td>
+              </tr>
+
+              <tr>
+              	<td class="key"><label for="date"><?php echo JText::_('Дата публикации');?></label></td>
+                <td><?php echo $date;?></td>
+              </tr>
+
+			  <tr>
+				<td class="key"><label for="published"><?php echo JText::_('Опубликовано');?></label></td>
+				<td>
+					<?php 
+						if( $published == 1 ):
+							echo JText::_('YES');
+						else:
+							echo JText::_('NO');
+						endif;
+					?>
+                </td>
+			  </tr> 
+                                        
+			</tbody>
+		  </table>
+	  </fieldset>
+
+		  <fieldset class="adminform">
+          <legend><?php echo JText::_('Текст комментария');?></legend>
+		  <table class="admintable">
+			<tbody>
+			  <tr>
+				<td><?php echo $editor->display( 'text', ''.$text.'', '900', '400', '20', '20');?></td>
+			  </tr>		
+		    </tbody>
+		  </table>  
+		  </fieldset>
+
+<input type="hidden" name="option" value="com_comment" />
+<input type="hidden" name="task" value="" />
+<input type="hidden" name="cid[]" value="<?php echo $id; ?>" />
+<input type="hidden" name="boxchecked" value="1" />
+<input type="hidden" name="controller" value="comment" />
+
+</form>

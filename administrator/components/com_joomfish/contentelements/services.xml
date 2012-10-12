@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Services - услуги компании</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует услуги компании</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="services">
+  		<field type="referenceid" name="id_service" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  		<field type="htmltext" name="s_desc" translate="1" >Краткое описание</field>
+  		<field type="htmltext" name="desc" translate="1" >Полное описание</field>
+  	</table>
+  </reference>
+</joomfish>

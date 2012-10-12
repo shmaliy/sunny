@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Images - изображения товаров</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует подписи к изображениям</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="images">
+  		<field type="referenceid" name="id_image" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  	</table>
+  </reference>
+</joomfish>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Menu(com_menu) - основные пункты меню</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует меню сайта</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="menus">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  		<field type="htmltext" name="desc" translate="1" >Описание</field>
+  	</table>
+  </reference>
+</joomfish>

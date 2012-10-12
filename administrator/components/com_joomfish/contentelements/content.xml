@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Content - материалы</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует материалы</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="content">
+  		<field type="referenceid" name="id_item" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  		<field type="htmltext" name="s_desc"  length="50" maxlength="250" translate="1">Краткое описание</field>
+  		<field type="htmltext" name="desc"  length="50" maxlength="250" translate="1">Полное описание</field>
+  	</table>
+  </reference>
+</joomfish>

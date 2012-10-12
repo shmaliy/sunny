@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Work - работы компании</name>
+  <author>strug</author>
+  <version>1</version>
+  <description>Редактирует работы компании</description>
+  <copyright></copyright>
+  <reference>
+  	<table name="work">
+  		<field type="referenceid" name="id_work" translate="0">ID</field>
+  		<field type="titletext" name="title"  length="50" maxlength="250" translate="1">Название</field>
+  		<field type="textarea" name="what"  length="100" maxlength="" translate="1">Что реализовано</field>
+  		<field type="textarea" name="how"  length="100" maxlength="" translate="1">Как реализовано</field>
+  		<field type="htmltext" name="desc"  length="200" maxlength="" translate="1">Описание</field>
+  	</table>
+  </reference>
+</joomfish>
