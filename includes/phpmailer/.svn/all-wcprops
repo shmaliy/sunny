@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sunny/!svn/ver/535/piligrim/trunk/includes/phpmailer
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sunny/!svn/ver/535/piligrim/trunk/includes/phpmailer/class.phpmailer.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sunny/!svn/ver/535/piligrim/trunk/includes/phpmailer/LICENSE
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sunny/!svn/ver/535/piligrim/trunk/includes/phpmailer/class.smtp.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sunny/!svn/ver/535/piligrim/trunk/includes/phpmailer/index.html
+END

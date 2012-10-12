@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Планеты в футере</name>
+	<author>Strug</author>
+	<creationDate>15.12.2010</creationDate>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>strug@sunny.net.ua</authorEmail>
+	<authorUrl>www.sunny.net.ua</authorUrl>
+	<version>1.0.1</version>
+	<description>Этот модуль отображает контактные данные в футере</description>
+	<files>
+		<filename module="mod_bplanet">mod_bplanet.php</filename>
+	</files>
+	<params>
+		<param type="text" name="email" label="Email" description="Email" />
+		<param type="text" name="tel" label="Телефон" description="Телефон" />
+		<param type="text" name="skype" label="Skype" description="Skype" />
+		<param type="textarea" name="fb" rows="2" cols="50" label="Ссылка на Facebook" description="Facebook" />
+		<param type="textarea" name="gmaps" rows="5" cols="50" label="Ссылка на карту Google Maps" description="Gmaps" />
+	</params>
+</install>

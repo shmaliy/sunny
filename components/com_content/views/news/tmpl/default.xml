@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Списиок блогов на главной">
+		<message>
+			Отображает список блогов на главной
+		</message>
+	</layout>
+	<state>
+		<name>Списиок блогов на главной</name>
+		<description>Отображает список блогов на главной</description>
+		<params>
+			<param type="text" label="Кол-во" description="Кол-во записей" default="3" name="limit" />
+		</params>
+	</state>
+</metadata>
