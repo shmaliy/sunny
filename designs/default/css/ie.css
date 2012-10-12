@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+#content .content_left ul li a, #content .content_l ul li sup{
+	$float: left;
+}
+
+/*-------------серые нцифры в меню-----------------*/
+#content .content_left ul li sup {
+	$font-size: 11px;
+}
+
+.width_95 {
+	$width: 93%;
+}
+
+.portfolio_menu .portfolio .portfolio_bottom{
+	$padding-bottom: 18px;
+}
+
+.clearer{
+	$height: 1px;
+}

@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+#content .content_left{
+	width: 240px;
+	float: left;	
+	border-right: 1px solid #e9ebf3;
+}
+
+/*-------------Заголовок левого контента-----------------*/
+#content .content_left .content_header {
+	color: #42434a;
+	font-size: 32px;
+}
+
+#content .content_left ul{
+	list-style: none;
+	list-style-position: inside;
+	margin-top: 0px;
+	padding-left:10px;
+}
+
+#content .content_left ul li div .plus{
+	display: none;
+}
+
+#content .content_left ul li div.head{
+	padding-left: 14px;	
+	font-size: 15px;	
+}
+
+#content .content_left ul li div{
+	padding: 2px 0px 0px 21px;	
+	min-height: 24px;
+}
+
+#content .content_left ul li span.point {
+	display: block;
+	float: left;
+	padding-right: 30px;
+}
+
+#content .content_left ul li .plus{
+	float: right;
+	margin-left: -30px;
+}
+
+/*-------------активный пунк меню-----------------*/
+#content .content_left ul li.current div{
+	background: #e9ebf3;
+
+}
+
+#content .content_left ul li.current div:hover{
+
+}
+
+#content .content_left ul li.current div a{
+	color: #42434a;
+}
+
+/*-------------пунк меню при наведении-----------------*/
+#content .content_left ul li div:hover{
+	background: #e9ebf3;
+	padding-right: 5px;
+
+}
+
+#content .content_left ul li div.head:hover{
+
+}
+
+#content .content_left ul li div:hover .plus{
+	display: block;
+	float: right;
+	width: auto;
+	padding: 0px 3px;
+	text-align: center;
+}

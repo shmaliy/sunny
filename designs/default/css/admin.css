@@ -1,0 +1,249 @@
+﻿@charset "utf-8";
+/*----------привязка футера-----------------*/
+html, body{
+	height: 100%;
+	font-size: 12px;
+	font-family: Arial;
+	min-width: 1000px;
+}
+
+#wrapper{
+	position: relative;
+	min-height: 100%;
+	-height: 100%;
+}
+
+#wrapper #content {
+	padding-bottom: 35px;
+}
+
+/*---------------Header----------------*/
+#header{
+	background: #42434a;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	height: 77px;
+	font-size: 16px;
+	padding-top: 25px;
+}
+
+#header .fixed{
+	position: relative;
+}
+
+#header  ul{
+	list-style: none;
+	list-style-position: inside;
+}
+
+#header ul.left li {
+	margin-right: 18px;
+	float: left;
+	padding-bottom: 12px;
+}
+
+#header ul.right li{
+	margin-left: 18px;
+	float: right;
+	text-align: right;
+	padding-bottom: 12px;
+}
+
+#header ul li a{
+	color: #ffffff;
+}
+
+#header ul li a:hover{
+	color: #52c9e2;
+}
+
+#header ul li a.current ,#header ul li a.current:hover {
+	color: #7a7c89;
+	text-decoration: none;
+	cursor: default;
+}
+
+#header .logo{
+	background: url(../images/logo-admin.jpg) no-repeat;
+	position: absolute;
+	top: -25px;
+	right: 205px;
+	width: 124px;
+	height: 102px;
+}
+
+/*--------------Footer-----------------*/
+#footer{
+	position: relative;
+	min-height: 20px;
+	-height: 20px;
+	margin-top: -35px;
+	background: #42434a;
+	padding: 7px 12px;
+}
+
+#footer ul{
+	list-style: none;
+	list-style-position: inside;
+}
+
+#footer ul li{
+	float: left;
+}
+
+#footer ul.left li {
+	margin-right: 18px;
+}
+
+#footer ul.right li{
+	margin-left: 18px;
+	text-align: right;
+}
+
+#footer ul li a{
+	color: #ffffff;
+}
+
+#footer ul li a:hover{
+	color: #52c9e2;
+}
+
+#footer ul li a.current ,#footer ul li a.current:hover {
+	color: #7a7c89;
+	text-decoration: none;
+	cursor: default;
+}
+
+#content {
+	font-size: 13px;
+	height: 100%;
+}
+
+#content a{
+	color: #5e77e5;
+}
+
+#content  a:hover{
+	color: #52c9e2;
+}
+
+/*-------------серые нцифры в меню-----------------*/
+#content sup {
+	color: #999ba6;
+	font-size: 10px;
+}
+
+
+/*--------------Content-----------------------*/
+#content .content_right{
+	width: 700px;
+	float: right;
+	color: #42434a;
+}
+
+#content .content_right table{
+	width: 100%;
+}
+
+#content .content_right .content_header {
+	color: #42434a;
+	font-size: 24px;
+	padding-top: 8px;
+}
+
+#content .content_right .date{
+	color: #999ba6;
+	margin-right: 5px;
+}
+
+#content .content_right table tr td{
+	padding: 0px 5px;
+	vertical-align: top;
+}
+
+#content .content_right table tr td input.button{
+	padding: 0px 3px;
+	margin-left: 2px;
+}
+
+#content .content_right table.hover tr:hover {
+	background: #e9ebf3;
+}
+
+#content .content_right table.hover tr:hover td input.button{
+	display: block;
+}
+
+
+/*----------Style content work list height------------------*/
+#content .content_right table.work_list tr{
+	height: 25px;
+}
+
+#content .content_right table.hover tr:hover td.input_r input.button{
+	float: right;
+}
+
+#content .content_right tr.input_r{
+	width: 120px;
+}
+
+
+/*----------Style content coment list------------------*/
+#content .content_right table.coment_list tr{
+	height: 110px;
+}
+
+#content .content_right table.coment_list textarea{
+	width: 430px;
+	height: 75px;
+	float: left;
+}
+
+#content .content_right table.coment_list div.comment_but{
+	width: 100px;
+	$width: 115px;
+	margin-bottom: 3px;
+}
+
+#content .content_right table.coment_list .coment_date{
+	width: 125px;
+}
+
+.save{
+	background: #e9ebf3;
+	padding: 7px;
+}
+
+.top{
+	margin-top: 30px;
+}
+
+#content .content_right .user_left{
+	border-right: 1px solid #e9ebf3;
+	border-bottom: 1px solid #e9ebf3;
+	width: 220px;
+	padding: 10px;
+}
+
+#content .content_right .user_right{
+	padding: 8px;
+	padding-right: 0px;
+	border-bottom: 1px solid #e9ebf3;
+}
+
+#content .content_right table.user_edit label{
+	margin-left: 3px;
+}
+
+#content .content_right table.user_edit .user_right div{
+	margin-bottom: 5px;
+}
+
+#content .content_right table.hover tr:hover .hidden{
+	display: block;
+}
+
+#content .content_right table.user_edit table.hover tr td{
+	padding: 3px 0px;
+}

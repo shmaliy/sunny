@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+html { overflow-y: scroll; }
+body { max-width: 750px;} 
+
+/*content*/
+
+h1{
+	color: #4a88a4;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+p{
+	color: #4d636f;
+	margin-bottom: 10px;
+	font-size: 13px;	
+}
+
+.small{
+	color: #ffffff;
+	margin-bottom: 10px;
+	font-size: 10px;
+	line-height: 12px}
+
+a{
+	color: #2f88e5;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #00a2ff;
+	text-decoration: none;
+}

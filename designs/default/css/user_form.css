@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+/*-----------------User form logaut---------------*/
+.user_form_bg{
+	width: 100%;
+	height: 100%;
+	background: url(../images/user_form/bacground.png);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	display: none;
+}
+
+.user_form_bg .user_form{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -175px;
+	margin-top: -106px;
+	width: 308px;
+	height: 170px;
+	border: 5px solid #305c6f;
+	background: #e4ebee;
+	padding: 21px;
+	position: relative;
+	color: #4d636f;
+	font-size: 13px;
+}
+
+.user_form_bg .user_form .title{
+	width: 100%;
+}
+
+#remind .user_form{
+	height: 140px;
+	margin-top: -91px;
+}
+
+.user_form_bg .user_form .close{
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: url(../images/user_form/close.png) no-repeat;
+}
+
+.user_form_bg .user_form .close:hover{
+	background: url(../images/user_form/close_hover.png) no-repeat;
+}
+
+.user_form_bg .user_form h1{
+	font-size: 36px;
+	font-weight: normal;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.user_form_bg .user_form .logout{
+	margin-top: 21px;
+	float: right;
+}
+
+.user_form_bg .user_form .remind{
+	margin-top: 21px;
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+}
+
+.user_form_bg .user_form .form_left{
+	float: left;
+	width: 94px;
+	$width: 90px;
+	margin-bottom: 10px;
+}
+
+.user_form_bg .user_form .form_right{
+	float: right;
+	width: 210px;
+	margin-bottom: 10px;
+}
+
+.user_form_bg .user_form  .remind_text{
+	font-size: 9px;
+	line-height: 11px;
+}
+
+.user_form_bg .user_form  input.button{
+	padding-left:10px;
+	padding-right:10px;
+}
