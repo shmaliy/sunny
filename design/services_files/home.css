@@ -1,0 +1,420 @@
+﻿@charset "utf-8";
+body, html{
+	width: 100%;
+	height: 100%;
+	/*min-height: 1033px;*/
+	min-height: 800px;
+	background: #01040d url(../images/background-stars.jpg) repeat;
+}
+
+#wrapper{
+	min-width: 900px;
+	max-width: 1150px;
+	margin: 0px auto;
+	background:  url(../images/background-nebula.jpg) no-repeat top center;
+	position: relative;
+	min-height: 100%;	
+	-height: 100%;
+}
+
+.about{
+	width: 900px;
+	position: relative;
+	margin: 0px auto;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.about .about_text{
+	width: 520px;
+	padding-left: 20px;
+	padding-top: 230px;
+}
+
+.about .about_text ul.dash{
+	padding-right: 50px;
+}
+
+.about .about_text p, .about .about_text ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-position: 0px 18px;
+}
+
+.about h1{
+	font-size: 36px;
+	font-weight: normal;
+}
+
+/*default contact*/
+.top_planet{
+	padding-bottom: 247px;
+	min-height: 790px;
+	height: 100%;
+}
+
+/*Full contact*/
+.contact_full .top_planet{
+	padding-bottom: 698px;
+	min-height: 790px;
+}
+
+
+#wrapper a.sunny_logo{
+	width: 245px;
+	height: 166px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -123px;
+}
+
+#wrapper a.sunny_logo img{
+	border: none;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	border: none;
+}
+
+/*----------Planet blog-----------------------*/
+.blog{
+	position: absolute;
+	top: 250px;
+	left: 97%;
+}
+
+.blog .blog_planet{
+	/*background: url(../images/blog_planet.png) no-repeat;*/
+	position: absolute;
+	bottom: 0px;
+	right: 79px;
+	height: 24px;
+	width: 44px;
+}
+
+.blog .blog_title{
+	position: absolute;
+	bottom: 26px;
+	right: 26px;
+	font-size: 12px;
+}
+
+.blog .visible{
+	bottom: 54px;
+	right: 0px;
+	height: auto;
+	width: 180px;
+}
+
+.blog .visible .visible_center{
+	min-height: 70px;
+	max-height: 180px;
+}
+
+.blog .blog_radian{
+	background: url(../images/blog_planet_radian.png) no-repeat;
+	position: absolute;
+	bottom: 42px;
+	right: 80px;
+	height: 10px;
+	width: 8px;
+}
+
+.blog .visible a{
+	font-size: 11px;
+}
+
+ .blog .visible .blog_news{
+ 	margin-bottom: 7px;
+ 	line-height: 11px;
+ }
+
+/*----------Planet Who we-----------------------*/
+.who_we{
+	position: absolute;
+	top: 240px;
+	right: 30%;
+}
+
+.who_we .who_we_planet{
+	/*background: url(../images/who_we_planet.png) no-repeat;*/
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	height: 79px;
+	width: 83px;
+}
+
+.who_we .who_we_title{
+	padding: 0px 0px 0px 85px;
+	font-size: 15px;
+}
+
+.who_we .visible{
+	top: 35px;
+	left: 75px;
+	width: 240px;
+	font-size: 13px;
+}
+
+.who_we .visible .visible_center{
+	min-height: 70px;
+	max-height: 160px;
+}
+
+.who_we .who_we_radian{
+	background: url(../images/who_we_planet_radian.png) no-repeat;
+	position: absolute;
+	top: 20px;
+	left: 105px;
+	height: 11px;
+	width: 9px;
+}
+
+/*----------Planet Consulting-----------------------*/
+.consulting{
+	position: absolute;
+	top: 440px;
+	left: 45%;
+}
+
+.consulting .consulting_planet{
+	/*background: url(../images/consulting_planet.png) no-repeat;*/
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	height: 226px;
+	width: 230px;
+}
+
+.consulting .consulting_title{
+	position: absolute;
+	top: 15px;
+	left: 230px;
+	font-size: 30px;
+}
+
+.consulting .visible{
+	top: 73px;
+	left: 225px;
+	width: 200px;
+	font-size: 13px;
+}
+
+.consulting .visible_center{
+	min-height: 70px;
+	max-height: 160px;
+}
+
+.consulting .consulting_radian{
+	background: url(../images/consulting_planet_radian.png) no-repeat;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	height: 19px;
+	width: 14px;
+}
+
+/*----------Planet Consulting About-----------------------*/
+.about .consulting{
+	position: absolute;
+	top: 620px;
+	left: 540px;
+}
+
+.about .consulting .consulting_planet{
+	background: url(../images/consulting_planet_about.png) no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	height: 192px;
+	width: 206px;
+}
+
+.about .consulting .consulting_title{
+	position: absolute;
+	top: 15px;
+	left: 207px;
+	font-size: 24px;
+}
+
+/*----------Planet Design-----------------------*/
+.design{
+	position: absolute;
+	top: 350px;
+	left: 0px;
+}
+
+.design .design_planet{
+	/*background: url(../images/design_planet.png) no-repeat;*/
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	height: 120px;
+	width: 177px;
+}
+
+.design .design_title{
+	position: absolute;
+	top: 103px;
+	left: 170px;
+	font-size: 24px;
+	display: block;
+	width: 200px;
+}
+
+.design .visible{
+	top: 170px;
+	left: 10px;
+	width: 300px;
+	font-size: 13px;
+}
+
+.design .visible_center{
+	min-height: 193px;
+	max-height: 100px;
+}
+
+.design .design_radian{
+	background: url(../images/design_planet_radian.png) no-repeat;
+	position: absolute;
+	top: 133px;
+	left: 218px;
+	height: 32px;
+	width: 14px;
+}
+/*----------Planet Design About-----------------------*/
+.about .design{
+	position: absolute;
+	top: 420px;
+	left: 615px;
+}
+
+.about .design .design_planet{
+	background: url(../images/design_planet_about.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	height: 109px;
+	width: 166px;
+}
+
+.about .design .design_title{
+	position: absolute;
+	top: 102px;
+	left: 160px;
+	font-size: 18px;
+	display: block;
+	width: 190px;
+}
+
+
+/*----------Planet Our Work-----------------------*/
+.our_work{
+	position: absolute;
+	top: 330px;
+	left: 8%;
+}
+
+.our_work .our_work_planet{
+	/*background: url(../images/our_work_planet.png) no-repeat;*/
+	position: absolute;
+	bottom: 0px;
+	left: 120px;
+	height: 55px;
+	width: 105px;
+}
+
+.our_work .our_work_title{
+	position: absolute;
+	bottom: 25px;
+	left: 185px;
+	font-size: 18px;
+	display: block;
+	width: 150px;
+}
+
+.our_work .visible{
+	bottom: 84px;
+	left: 20px;
+	width: 230px;
+	font-size: 13px;
+}
+
+.our_work .visible_center{
+	min-height: 120px;
+	max-height: 250px;
+	font-size: 11px;
+}
+
+.our_work .visible_center img{
+	width: 100px;
+	height: 100px;
+	border: none;
+}
+
+.our_work .visible_center .our_work_right{
+	float: right;
+	width: 115px;
+}
+
+.our_work .visible_center .visible_title{
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.our_work .our_work_arrow{
+	width: 7px;
+	height: 17px;	
+	position: absolute;
+	bottom: 50%;
+	margin-bottom: -9px;
+	background: url('../images/arrow.png') no-repeat;
+}
+
+.our_work .our_work_arrow:hover{
+	width: 7px;
+	height: 29px;	
+	bottom: 50%;
+	margin-bottom: -14px;
+	background: url('../images/arrow_hover.png') no-repeat;
+}
+
+.our_work .our_work_arrow_left{
+	left: -7px;
+}
+
+.our_work .our_work_arrow_right{
+	right: -7px;
+}
+
+.our_work .our_work_arrow img{
+	border: none;
+} 
+
+.our_work .our_work_radian{
+	background: url(../images/our_work_planet_radian.png) no-repeat;
+	position: absolute;
+	bottom: 42px;
+	left: 218px;
+	height: 38px;
+	width: 17px;
+}
+
+.visible_block{
+	display: none;
+}
+
+.our_work .visible_block{
+	display: none;
+}
